@@ -7,9 +7,11 @@ body {
     touch-action: none;
     display: flex;
     max-width: 100vw;
-    max-height: 100vw;
-    overflow-x: hidden;
-    scroll-behavior: auto;
+    flex-direction: column;
+	-ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none
 }
 
  audio {
